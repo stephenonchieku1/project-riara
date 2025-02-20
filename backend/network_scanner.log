@@ -1,0 +1,26 @@
+2025-02-20 17:04:22,316 - INFO - Starting scan on IP: 172.31.5.114
+2025-02-20 17:04:22,321 - ERROR - Error scanning IP 172.31.5.114: [Errno 1] Operation not permitted
+2025-02-20 17:08:24,691 - INFO - Starting web scan on URL: 192.168.1.1
+2025-02-20 17:08:24,697 - ERROR - Error performing web scan on 192.168.1.1: Invalid URL '192.168.1.1': No scheme supplied. Perhaps you meant https://192.168.1.1?
+2025-02-20 17:09:00,507 - INFO - Starting scan on IP: 192.168.1.1
+2025-02-20 17:09:00,509 - ERROR - Error scanning IP 192.168.1.1: [Errno 1] Operation not permitted
+2025-02-20 17:09:54,756 - INFO - Starting web scan on URL: https://www.siteseer.tech/
+2025-02-20 17:09:56,252 - ERROR - Error performing web scan on https://www.siteseer.tech/: HTTPSConnectionPool(host='www.siteseer.tech', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff4cc9963c0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2025-02-20 17:09:56,253 - INFO - Performing behavior-based anomaly detection on IP: 192.168.1.1
+2025-02-20 17:10:01,220 - WARNING - Anomaly detected in network behavior for IP: 192.168.1.1
+2025-02-20 17:22:42,668 - INFO - Starting scan on IP: 192.168.1.1
+2025-02-20 17:22:42,669 - ERROR - Error scanning IP 192.168.1.1: [Errno 1] Operation not permitted
+2025-02-20 17:36:01,430 - INFO - Starting scan on IP: 192.168.0.1
+2025-02-20 17:36:01,432 - ERROR - Error scanning IP 192.168.0.1: [Errno 1] Operation not permitted
+2025-02-20 17:36:22,392 - INFO - Starting web scan on URL: http://192.168.0.1/login.html
+2025-02-20 17:36:22,471 - ERROR - Error performing web scan on http://192.168.0.1/login.html: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: http://192.168.0.1/login.html (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2f1df7a7e0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2025-02-20 17:36:22,471 - INFO - Performing behavior-based anomaly detection on IP: 192.168.0.1
+2025-02-20 17:36:25,404 - WARNING - Anomaly detected in network behavior for IP: 192.168.0.1
+2025-02-20 17:41:08,299 - INFO - Starting scan on IP: 192.168.0.1
+2025-02-20 17:42:49,508 - INFO - Open port found: 80, Service: http
+2025-02-20 18:03:09,672 - WARNING - Potential vulnerability detected on 192.168.0.1 - Port: 80, Service: http, CVE: CVE-2020-2345, Description: HTTP service is vulnerable to XSS attacks., CVSS Score: 5.0
+2025-02-20 18:03:09,680 - WARNING - Potential vulnerability detected on 192.168.0.1 - Port: 80, Service: http, CVE: CVE-2022-3456, Description: HTTP service is vulnerable to SQL injection., CVSS Score: 9.0
+2025-02-20 18:21:05,595 - INFO - Starting web scan on URL: https://www.siteseer.com/
+2025-02-20 18:21:08,553 - ERROR - Error performing web scan on https://www.siteseer.com/: HTTPSConnectionPool(host='www.siteseer.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f83799979b0>: Failed to establish a new connection: [Errno 111] Connection refused')))
+2025-02-20 18:21:08,553 - INFO - Performing behavior-based anomaly detection on IP: 192.168.0.1
+2025-02-20 18:21:13,197 - WARNING - Anomaly detected in network behavior for IP: 192.168.0.1
